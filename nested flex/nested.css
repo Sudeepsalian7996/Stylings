@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cat-image {
+    height: 65px;
+    width: 74px;
+    object-fit: cover;
+    border-radius: 35px;
+    margin-left: 10px;
+}
+
+.flex {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row {
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.first-content {
+    display:flex;
+}
+
+.first-text {
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.second-text {
+    color: rgb(105, 101, 101);
+    font-weight: 600;
+}
+
+.description {
+    font-size: 20px;
+    flex: 1;
+}
+
+.second-row {
+    display: flex;
+    height: 120px;
+    width: 95%;
+    border-style: solid;
+    border-color: rgb(188, 178, 178);
+    border-width: 1px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px rgb(117, 107, 107);
+}
+
+.empty-space {
+    width: 40%;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    background-color: rgb(203, 193, 193);
+}
+
+.youtube-content {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.youtube-header {
+   color: rgba(108, 97, 97, 0.767);
+   font-weight: 600;
+}
+
+

@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+}
+
+.container {
+    height: 420px;
+    width: 240px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.fb{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 230px;   
+}
+
+.fb img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.text {
+    position: absolute;
+    bottom: 60px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.meta {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: 30px;
+    left:90px;
+    display: flex;
+    align-items: center;
+}
+
+.meta-text {
+    color: rgb(21, 80, 188);
+    font-weight: bolder;
+}
+
+.meta img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    animation: dots 2s infinite;
+    position: absolute;
+    top: 200px;
+    left: 90px;
+}
+
+.loading span {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(127, 200, 225);
+    border-radius: 50%;
+}
+
+
+@keyframes dots {
+    50% {
+        opacity: 0; 
+        transform: scale(0.7) translateY(10px);
+    }   
+}

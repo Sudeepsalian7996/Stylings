@@ -1,0 +1,59 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    
+}
+
+.one {
+    box-shadow: 2px 2px 14px 2px;
+    height: 350px;
+}
+.first-image {
+    height: 200px; 
+  }
+  .two {
+    box-shadow: 2px 2px 14px 2px;
+    height: 350px;
+  }
+  .first-image img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+
+  .name {
+    margin-top: 8px; 
+    font-weight: bold;
+    padding: 7px;
+  } 
+
+  .second-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  
+  .second-image {
+    width: 25px;
+    height: auto;
+    margin-left: 8px;
+  }
+
+  .second-image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .sub-title {
+    color:rgb(138, 131, 131)
+  }
+
+  .button{
+    border-style: none;
+    background-color: rgb(111, 111, 225);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 3px;
+  }
